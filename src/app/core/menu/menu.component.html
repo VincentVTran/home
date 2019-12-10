@@ -1,0 +1,16 @@
+<!--HamBurger Icon-->
+<div class="bars" (click)="clickEvent()" [ngClass]="status ? 'active' : 'empty'" id="nav-action">
+    <span class="bar"> </span>
+  </div>
+  
+  <!--Navbar Links-->
+  <nav id="nav" [ngClass]="status ? 'visible' : 'empty'">
+    <ul>
+      <li class="shape-circle circle-one"><a href="#">Contact</a></li>
+      <li class="shape-circle circle-two"><a href="#">Experience</a></li>
+      <li class="shape-circle circle-three"><a href="#">Projects</a></li>
+      <li class="shape-circle circle-five">
+        <a href="#">About</a>
+      </li>
+    </ul>
+  </nav>
