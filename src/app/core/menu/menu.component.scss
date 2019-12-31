@@ -1,226 +1,86 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    position: relative;
-    background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
-    background-size: cover;
-    min-width: 500px;
-    min-height: 200px;
-    color: #fff;
-    font-family: 'Montserrat';
-    height:100vmax;
-  }
-  
-  .bars {
-    /*   background-color:pink; */
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 101;
-    padding-top:9px;
-  }
-  
-  .bar {
-    width: 100%;
-    height: 4px;
-    background-color: #fff;
-    position: absolute;
-  }
-  
-  span::before,
-  span::after {
-    content: "";
-    display: block;
-    background-color: #fff;
-    width: 100%;
-    height: 4px;
-    position: absolute;
-  }
-  
-  .bar::before {
-    transform: translateY(-9px);
-  }
-  
-  .bar::after {
-    transform: translateY(9px);
-  }
-  
-  .bars.active .bar {
-    background-color: transparent;
-  }
-  
-  .bars.active span::before {
-    animation: top-bar 1s;
-    animation-fill-mode: forwards;
-  }
-  
-  .bars.active span::after {
-    animation: bottom-bar 1s;
-    animation-fill-mode: forwards;
-  }
-  
-  
-  /* Navbar Links CSS */
-  
-  #nav {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transition: all 1s;
-    z-index: -1;
-    overflow: hidden;
-    opacity: 0;
-  }
-  
-  #nav a {
-    color: #fff;
-    text-decoration: none;
-    line-height: 70vw;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-indent: 50vw;
-    border-radius: 50%;
-    transition: all .5s;
-  }
-  
-  #nav a:hover {
-    background: rgb(121, 121, 121);
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .visible {
-    z-index: 100 !important;
-    opacity: 1 !important;
-  }
-  
-  .shape-circle {
-    border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
-    top: -10vw;
-    right: -10vw;
-    position: absolute;
-    transition: all 1s ease-in-out;
-    background: rgb(63, 63, 63);
-    box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);
-  }
-  
-  nav.visible li:first-child {
-    width: 200vw;
-    height: 200vw;
-    top: -100vw;
-    right: -100vw;
-    z-index: 5;
-    transition: all .5s ease-in-out;
-    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
-  }
-  
-  nav.visible li:nth-child(2) {
-    width: 150vw;
-    height: 150vw;
-    top: -75vw;
-    right: -75vw;
-    z-index: 6;
-    transition: all .6s ease-in-out;
-    box-shadow: 0 0px 80px rgba(24, 24, 24, 0.5);
-  }
-  
-  nav.visible li:nth-child(3){
-    width: 100vw;
-    height: 100vw;
-    top: -50vw;
-    right: -50vw;
-    z-index: 7;
-    transition: all .7s ease-in-out;
-    box-shadow: 0 0px 80px  rgba(24, 24, 24, 0.5);
-  }
-  
-  nav.visible li:last-child{
-    width: 50vw;
-    height: 50vw;
-    top: -25vw;
-    right: -25vw;
-    z-index: 8;
-    transition: all .8s ease-in-out;
-    box-shadow: 0 0px 80px rgba(24, 24, 24, 0.5);
-  }
-  
-  nav.visible li:first-child a {
-    line-height: 265vw !important;
-      text-indent: 15vw !important;
-  
-  }
-  
-  nav.visible li:nth-child(2) a {
-    line-height: 200vw !important;
-    text-indent:17vw !important;
-  }
-  
-  nav.visible li:nth-child(3) a {
-    line-height: 137vw !important;
-      text-indent: 17vw !important;
-    
-  }
-  
-  nav.visible li:last-child a {
-    line-height: 70vw !important;
-    text-indent:12vw !important;
-  }
-  
-  
-  /* Main Body CSS */
-  li {
-    font-family: 'Quicksand';
-    font-size: 30px;
-  }
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+.back{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+}
+.thx{
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  bottom: 15px;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top:50px;
+  text-align:center;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 
-  @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xDwxUD2GFw.woff) format('woff');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
   }
-  @keyframes top-bar {
-    50% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: rotate(45deg) translateY(0);
-    }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
   }
-  
-  @keyframes bottom-bar {
-    50% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: rotate(-45deg) translateY(0);
-    }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
   }
-  
-  
-  @media screen and (max-width:800px) {
-  
-    h1 {
-      padding-top:80px;
-      font-size: 60px;
-    }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
   }
-  
-  
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+    animation:show .2s #{$i*0.1+1}s ease 1 both;
+  }
+}
