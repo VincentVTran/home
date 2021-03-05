@@ -1,0 +1,15 @@
+.cardFrame {
+    margin-top: 100px,
+}
+
+.cardSubject {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cardPrimary {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

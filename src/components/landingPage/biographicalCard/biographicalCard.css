@@ -1,0 +1,15 @@
+/* Card CSS */
+.cardFrame {
+    margin-bottom: 100px,
+}
+
+.cardSubject {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cardSecondary {
+    font-size: 20px;
+    margin-top: 0;
+}

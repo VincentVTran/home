@@ -1,19 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Card from '@material-ui/core/Card'
 import './landingPage.css';
 
+import BiographicalCard from '../../components/landingPage/biographicalCard/biographicalCard';
+import ExperienceTimeline from '../../components/landingPage/experienceTimeline/experienceTimeline';
+
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: 'black',
-    paddingLeft: 0,
-    paddingRight: 0,
-    backgroundImage: '../../resources/background.jpg'
-  },
-  titleText: {
-   
-  },
   backgroundTop: {
     textAlign: 'center',
     fontSize: 20,
@@ -21,32 +14,34 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(5),
   },
   backgroundBottom: {
-    paddingTop: theme.spacing(5),
+    paddingTop: theme.spacing(),
     textAlign: 'center',
     fontSize: 20,
     backgroundColor: 'white'
-  },
-  control: {
-    padding: theme.spacing(10),
-    marginBottom: theme.spacing(10),
   },
 }));
 
 function LandingPage() {
   const classes = useStyles();
   return (
-      <Container maxWidth="xl" className={classes.root}>
-        <Container maxWidth="xl" className={classes.backgroundTop}>
+      <Container maxWidth="xl" class="root">
+
+        <Container maxWidth="xl" class="backgroundTop">
+          
+          <h1 class="titleHeader"> Vincent Tran </h1>
+          
           <Container maxWidth="md">
-          <h1 className="titleHeader"> Vincent Tran </h1>
-            <Card elevation={20} className={classes.control}> </Card>
+            <BiographicalCard></BiographicalCard>
           </Container>
+  
         </Container>
 
-        <Container maxWidth="xl" className={classes.backgroundBottom}>
+        <Container maxWidth="xl" class="backgroundBottom">
+
           <Container maxWidth="md">
-            <Card elevation={20} className={classes.control}> </Card>
+            <ExperienceTimeline></ExperienceTimeline>
           </Container>
+
         </Container>
     
 
