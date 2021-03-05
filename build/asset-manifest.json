@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50551bfd.chunk.css",
+    "main.js": "/static/js/main.a84acce0.chunk.js",
+    "main.js.map": "/static/js/main.a84acce0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc0f5c80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc0f5c80.js.map",
+    "static/js/2.6bc943b5.chunk.js": "/static/js/2.6bc943b5.chunk.js",
+    "static/js/2.6bc943b5.chunk.js.map": "/static/js/2.6bc943b5.chunk.js.map",
+    "static/js/3.aab195a5.chunk.js": "/static/js/3.aab195a5.chunk.js",
+    "static/js/3.aab195a5.chunk.js.map": "/static/js/3.aab195a5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.50551bfd.chunk.css.map": "/static/css/main.50551bfd.chunk.css.map",
+    "static/js/2.6bc943b5.chunk.js.LICENSE.txt": "/static/js/2.6bc943b5.chunk.js.LICENSE.txt",
+    "static/media/acmLogo.a2477ad5.png": "/static/media/acmLogo.a2477ad5.png",
+    "static/media/capitalOne.e2a69353.png": "/static/media/capitalOne.e2a69353.png",
+    "static/media/codeLogo.484970e6.png": "/static/media/codeLogo.484970e6.png",
+    "static/media/jbhuntLogo.cb3b8565.png": "/static/media/jbhuntLogo.cb3b8565.png",
+    "static/media/uofaLogo.bb725875.png": "/static/media/uofaLogo.bb725875.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc0f5c80.js",
+    "static/js/2.6bc943b5.chunk.js",
+    "static/css/main.50551bfd.chunk.css",
+    "static/js/main.a84acce0.chunk.js"
+  ]
+}
