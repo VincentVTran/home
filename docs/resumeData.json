@@ -105,16 +105,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Troogle",
+        "category":"A search engine created to help find previously aired trivia questions",
+        "image":"troogle.JPG",
+        "url":"https://stoic-panini-1f7a82.netlify.app/start"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Mood Bird",
+        "category":"Twitter feed sentiment analysis using pre-existing NLP models",
+        "image":"moodbird.JPG",
+        "url":"https://jovial-colden-1aa1a6.netlify.app/"
       }
     ]
   }
