@@ -1,0 +1,121 @@
+{
+  "main": {
+    "name":"Vincent Tran",
+    "description":"Software Engineer in the making",
+    "image":"profile_pic.jpeg",
+    "bio":"Currently a rising junior with roughly 2+ years of professional experience in the software development industry. I have had exposure to everything from automating end-to-end testing to frontend development; However, I am mostly proficient, and interested, in developing backend micro-services and utilizing machine learning frameworks.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "VincentTran197120@gmail.com",
+    "phone": "479-757-9686",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "city":"Fayetteville",
+      "state":"Arkansas"
+    },
+    "website": "https://vincentvtran.github.io/home/",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/vincentvinhtran/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/vincentvtran197/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/VincentVTran",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Full-stack engineer/Backend Specialist",
+    "education":[
+      {
+        "school":"University of Arkansas",
+        "degree":"Honors Bachelor of Science in Computer Engineering",
+        "graduated":"May 2023",
+        "description":"Actively involved in clubs such as IEEE and ACM."
+      },
+      {
+        "school":"Fayetteville High School",
+        "degree":"High Honors Graduate",
+        "graduated":"May 2019",
+        "description":"Volunteered as computer science teacher's assistant. Active member of NHS, science NHS, and Mu Alpha Theta."
+      }
+    ],
+    "work":[
+      {
+        "company":"Capital One",
+        "title":"Software Engineering Intern",
+        "years":"June 2021 - August 2021",
+        "description":"Worked with the card tech core application team on a ML project."
+      },
+      {
+        "company":"University of Arkansas",
+        "title":"Research Assistant",
+        "years":"January 2021 - June 2021",
+        "description":"Help developed an application that quantified trucker's recklessness based off of dashcam videos and real-time sensor log."
+      },
+      {
+        "company":"Association of Computing Machinery (ACM)",
+        "title":"Event Coordinator",
+        "years":"August 2020 – May 2021",
+        "description":"In charge of inviting recruiters from local start-ups and fortune 500 companies to recruiting events."
+      },
+      {
+        "company":"J.B. Hunt",
+        "title":"Application Development Intern",
+        "years":"June 2019 - June 2021",
+        "description":"Worked on a variety of highly impactful full-stack projects within the company tech environment."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"90%"
+      },
+      {
+        "name":"Docker",
+        "level":"70%"
+      },
+      {
+        "name":"Git",
+        "level":"95%"
+      },
+      {
+        "name":"Angular",
+        "level":"60%"
+      },
+      {
+        "name":"React",
+        "level":"50%"
+      },
+      {
+        "name":"Python",
+        "level":"75%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      }
+    ]
+  }
+}
