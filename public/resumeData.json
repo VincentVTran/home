@@ -51,10 +51,16 @@
     ],
     "work":[
       {
+        "company":"Amazon (AWS)",
+        "title":"Software Development Engineering Intern",
+        "years":"May 2022 - August 2022",
+        "description":"Worked with AWS window containerization team for Fargate platform on EKS and ECS services."
+      },
+      {
         "company":"Capital One",
         "title":"Software Engineering Intern",
         "years":"June 2021 - August 2021",
-        "description":"Worked with the card tech core application team on a ML project."
+        "description":"Worked with the card tech core application team on a NLP project dealing with address validation."
       },
       {
         "company":"University of Arkansas",
@@ -65,13 +71,13 @@
       {
         "company":"Association of Computing Machinery (ACM)",
         "title":"Event Coordinator",
-        "years":"August 2020 – May 2021",
+        "years":"August 2020 – May 2022",
         "description":"In charge of inviting recruiters from local start-ups and fortune 500 companies to recruiting events."
       },
       {
         "company":"J.B. Hunt",
         "title":"Application Development Intern",
-        "years":"June 2019 - June 2021",
+        "years":"June 2019 - May 2022",
         "description":"Worked on a variety of highly impactful full-stack projects within the company tech environment."
       }
     ],
