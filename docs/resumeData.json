@@ -2,7 +2,7 @@
   "main": {
     "name":"Vincent Tran",
     "description":"Software Engineer in the making",
-    "image":"profile_pic.jpeg",
+    "image":"profile_pic.jpg",
     "bio":"Currently a rising junior with roughly 2+ years of professional experience in the software development industry. I have had exposure to everything from automating end-to-end testing to frontend development; However, I am mostly proficient, and interested, in developing backend micro-services and utilizing machine learning frameworks.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "VincentTran197120@gmail.com",
