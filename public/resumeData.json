@@ -1,17 +1,17 @@
 {
   "main": {
     "name":"Vincent Tran",
-    "description":"Software Engineer in the making",
+    "description":"Software Engineer",
     "image":"profile_pic.jpg",
-    "bio":"Currently a senior with roughly 3+ years of professional experience in the software development industry. I have had exposure to everything from automating end-to-end testing to frontend development; However, I am mostly proficient, and interested, in developing backend and cloud platform services.",
+    "bio":"Software Development Engineer at Amazon with over 3 years of experience in software development, focusing on backend and cloud services. Skilled in building serverless systems, scaling container environments, and ensuring high-performance applications.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "VincentTran197120@gmail.com",
     "phone": "479-757-9686",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/VincentVTran",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "city":"Fayetteville",
-      "state":"Arkansas"
+      "city":"Seattle",
+      "state":"Washington"
     },
     "website": "https://vincentvtran.github.io/home/",
     "resumedownload":"",
@@ -34,25 +34,25 @@
     ]
   },
   "resume":{
-    "skillmessage":"Full-stack engineer/Backend Specialist",
+    "skillmessage":"Full-stack Engineer / Backend Specialist",
     "education":[
       {
         "school":"University of Arkansas",
-        "degree":"Honors Bachelor of Science in Computer Engineering",
-        "graduated":"May 2023",
-        "description":"Actively involved in clubs such as IEEE and ACM."
-      },
-      {
-        "school":"Fayetteville High School",
-        "degree":"High Honors Graduate",
-        "graduated":"May 2019",
-        "description":"Volunteered as computer science teacher's assistant. Active member of NHS, science NHS, and Mu Alpha Theta."
+        "degree":"B.S. Computer Engineering",
+        "graduated":"August 2019 - May 2023",
+        "description":"Active in IEEE and ACM clubs."
       }
     ],
     "work":[
       {
-        "company":"Amazon (AWS)",
-        "title":"Software Development Engineering Intern",
+        "company":"Amazon",
+        "title":"Software Development Engineer",
+        "years":"July 2023 - Present",
+        "description":"Worked with Prime Videos and AWS Elastic Kubernetes Service teams dealing with everything from infrastructure to customer facing feature work."
+      },
+      {
+        "company":"Amazon Web Service",
+        "title":"Software Development Engineer Intern",
         "years":"May 2022 - August 2022",
         "description":"Worked with AWS window containerization team for Fargate platform on EKS and ECS services."
       },
@@ -83,6 +83,10 @@
     ],
     "skills":[
       {
+        "name":"Go",
+        "level":"85%"
+      },
+      {
         "name":"Java",
         "level":"90%"
       },
@@ -105,6 +109,36 @@
       {
         "name":"Python",
         "level":"75%"
+      },
+      {
+        "name":"Kubernetes",
+        "level":"80%"
+      }
+    ],
+    "awards":[
+      {
+        "title":"NSF MDaS Scholarship Recipient",
+        "organization":"NSF",
+        "description":"Top 10 first-generation student in computer science.",
+        "date":"Mar 2021"
+      },
+      {
+        "title":"Capital One Software Engineering Summit Finalist",
+        "organization":"Capital One",
+        "description":"Top 40 out of 3000+ applicants nationwide.",
+        "date":"Nov 2019"
+      },
+      {
+        "title":"J.B. Hunt Hackathon",
+        "organization":"J.B. Hunt",
+        "description":"Won 1st place with a 6-member team against 19+ teams.",
+        "date":"Mar 2019"
+      },
+      {
+        "title":"John Brown University Coding Competition",
+        "organization":"John Brown University",
+        "description":"Placed 2nd in algorithm-focused competition against 10+ teams.",
+        "date":""
       }
     ]
   },
